@@ -1,0 +1,15 @@
+html,
+body {
+    font-size: 16px;
+    height: 100%;
+}
+
+#root {
+    display: flex;
+    min-height: 100%;
+    background-color: hsla(0, 0%, 0%, 1);
+    background-image: radial-gradient(at 11% 11%, hsla(240, 100%, 22%, 0.31) 0px, transparent 50%),
+        radial-gradient(at 74% 76%, hsla(292, 100%, 50%, 0.19) 0px, transparent 50%),
+        radial-gradient(at 54% 45%, hsla(289, 100%, 15%, 0.19) 0px, transparent 50%);
+    user-select: none;
+}

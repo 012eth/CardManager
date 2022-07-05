@@ -1,0 +1,39 @@
+{
+    "name": "bcard",
+    "private": true,
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.9.3",
+        "@emotion/styled": "^11.9.3",
+        "@mui/material": "^5.8.6",
+        "@openzeppelin/contracts": "^4.7.0",
+        "ethers": "^5.6.9",
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0",
+        "react-toastify": "^9.0.5"
+    },
+    "devDependencies": {
+        "@nomiclabs/hardhat-ethers": "^2.0.6",
+        "@nomiclabs/hardhat-waffle": "^2.0.3",
+        "@trivago/prettier-plugin-sort-imports": "^3.2.0",
+        "@types/react": "^18.0.0",
+        "@types/react-dom": "^18.0.0",
+        "@vitejs/plugin-react": "^1.3.0",
+        "babel-plugin-styled-components": "^2.0.7",
+        "chai": "^4.3.6",
+        "dotenv": "^16.0.1",
+        "ethereum-waffle": "^3.4.4",
+        "ethers": "^5.6.9",
+        "hardhat": "^2.9.9",
+        "prettier": "^2.7.1",
+        "prettier-plugin-solidity": "1.0.0-beta.19",
+        "typescript": "^4.6.3",
+        "vite": "^2.9.9",
+        "vite-plugin-html-env": "^1.1.3"
+    }
+}
